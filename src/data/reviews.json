@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "user": "John Doe",
+    "movie": "Inception",
+    "rating": 5,
+    "date": "March 2025",
+    "text": "Mind-blowing movie! Nolan at his best."
+  },
+  {
+    "id": 2,
+    "user": "Sarah Lee",
+    "movie": "Joker",
+    "rating": 4,
+    "date": "Feb 2025",
+    "text": "A chilling performance by Joaquin Phoenix."
+  },
+  {
+    "id": 3,
+    "user": "Mike Johnson",
+    "movie": "Fight Club",
+    "rating": 4.5,
+    "date": "Jan 2025",
+    "text": "An unforgettable cult classic that makes you question reality."
+  },
+  {
+    "id": 4,
+    "user": "Ana Maria",
+    "movie": "Pulp Fiction",
+    "rating": 5,
+    "date": "Dec 2024",
+    "text": "Tarantino’s masterpiece — stylish, funny, and unforgettable."
+  },
+  {
+    "id": 5,
+    "user": "David Kim",
+    "movie": "Whiplash",
+    "rating": 4,
+    "date": "Nov 2024",
+    "text": "Intense and thrilling. J.K. Simmons’ performance is phenomenal."
+  }
+]
