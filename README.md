@@ -79,7 +79,6 @@ ReelTalks is a dynamic movie review web application built in **React.js**. It al
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Tech Stack](#tech-stack)
 - [APIs Used](#apis-used)
 - [Setup Instructions](#setup-instructions)
@@ -97,20 +96,15 @@ ReelTalks is a dynamic movie review web application built in **React.js**. It al
 - **Submit Reviews** stored in Firebase Firestore.  
 - **Search and filter** movies by title, genre, and favorites.  
 - **AI Chat Assistant** to ask movie-related questions.  
-- Fully responsive layout with **Tailwind CSS** styling.
 
 ---
-
-## Demo
-
-Add your live demo link here if hosted (e.g., Netlify, Vercel, GitHub Pages).
 
 ---
 
 ## Tech Stack
 
 - React.js  
-- Tailwind CSS / CSS Modules  
+- CSS 
 - Firebase Firestore  
 - Local Storage  
 - TMDB API (for dynamic trending movies)  
