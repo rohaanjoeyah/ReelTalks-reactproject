@@ -1,15 +1,21 @@
 import axios from 'axios';
 
-// Create a base instance
+// 🌍 CONFIGURATION
+// If the app is running on Vercel (Production), use the Railway URL.
+// If running on your computer (Development), use localhost.
+
+const API_URL = process.env.NODE_ENV === 'production'
+  ? 'https://reeltalks-reactproject-production.up.railway.app/api'  // ☁️ LIVE
+  : 'http://localhost:5000/api';                                   // 💻 LOCAL
+
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your Backend URL
+  baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
 // 🔒 Interceptor: Automatically add Token to requests
-// If we have a token saved in localStorage, attach it to the header
 api.interceptors.request.use(
   (config) => {
     const user = JSON.parse(localStorage.getItem('user'));
