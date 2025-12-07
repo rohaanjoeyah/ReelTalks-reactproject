@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 // security 
-const mongoSanitize = require('express-mongo-sanitize');
-const xss = require('xss-clean');
+//const mongoSanitize = require('express-mongo-sanitize');
+//const xss = require('xss-clean');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 
@@ -29,10 +29,10 @@ app.use(helmet({
 
 
 //  SECURITY: Prevent NoSQL injection
-app.use(mongoSanitize());
+//app.use(mongoSanitize());
 
 //  SECURITY: Prevent XSS attacks
-app.use(xss());
+//app.use(xss());
 
 // SECURITY: Rate Limiting (Limit specific IPs to 100 requests per 10 mins)
 const limiter = rateLimit({
