@@ -7,8 +7,8 @@ This project was built as an extended assignment to convert a React frontend int
 ---
 
 ## 🚀 Live Demo
-- **Frontend (Vercel):** [Add your Vercel Link Here]
-- **Backend (Render):** [Add your Render Link Here]
+- **Frontend (Vercel):** https://reel-talks-reactproject.vercel.app/
+- **Backend (Railway):** https://reeltalks-reactproject-production.up.railway.app/
 
 ---
 
