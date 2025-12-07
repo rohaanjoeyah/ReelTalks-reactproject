@@ -18,6 +18,8 @@ const uploadRoutes = require('./routes/uploadRoutes');
 
 const app = express();
 
+app.set('trust proxy', 1); // trusting railway ip
+
 app.use(express.json());
 app.use(cors());
 
